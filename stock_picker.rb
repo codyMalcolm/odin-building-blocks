@@ -10,7 +10,6 @@ def stock_picker(prices)
       max_diff = [max_diff, diff].max
     }
   }
-  p max_diff
   return current_winners
 end
 
